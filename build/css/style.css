@@ -720,8 +720,8 @@ button,
         background-color: #2c39f2;
         -webkit-animation: slide-in-left 0.5s ease-out;
                 animation: slide-in-left 0.5s ease-out;
-        -webkit-transition: 0.5s ease-out;
-        transition: 0.5s ease-out; } }
+        -webkit-transition: left 0.5s ease-out;
+        transition: left 0.5s ease-out; } }
   .intro__image {
     -webkit-animation: slide-in-left 0.85s ease-out;
             animation: slide-in-left 0.85s ease-out; }
