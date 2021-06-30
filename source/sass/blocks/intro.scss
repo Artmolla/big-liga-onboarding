@@ -3,7 +3,7 @@
   grid-template-columns: 63% 1fr;
   max-width: 1366px;
   margin: 0 auto;
-  padding-top: 41px;
+  padding-top: 35px;
 
   h1 {
     max-width: 600px;
@@ -41,7 +41,7 @@
 
   @include viewport--md {
     grid-template-columns: 1fr;
-    padding-top: 169px;
+    padding-top: 163px;
   }
 
   &__description {
@@ -80,8 +80,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      padding-top: 32px;
+      padding-top: 156px;
       color: $color-default-white;
     }
   }
