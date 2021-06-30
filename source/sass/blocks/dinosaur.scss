@@ -1,0 +1,16 @@
+.dinosaur {
+  &__lightning,
+  &__flag {
+    @include viewport--md {
+      fill: $color-default-white;
+    }
+  }
+
+  &__fire {
+    animation: dinosaur-fire 0.5s ease-out infinite;
+
+    @include viewport--md {
+      fill: $color-default-white;
+    }
+  }
+}
